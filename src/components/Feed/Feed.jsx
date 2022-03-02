@@ -16,7 +16,6 @@ function Feed() {
   const { user, postsList, loggedUsers } = useContext(AppContext);
   const [message, setMessage] = useState("");
 
-  //Obtiene el color y la foto del usuario logueado:
   const infoUser = loggedUsers
     .filter((logged) => logged.uid === user.uid)
     .map((user) => {
@@ -26,12 +25,10 @@ function Feed() {
       };
     });
 
-  //Maneja el input para capturar el mensaje del usuario:
   const getMessage = (e) => {
     setMessage(e.target.value);
   };
 
-  //Agrega el post del usuario a Firebase con un ID random:
   const addPost = () => {
     const authorPost = loggedUsers.filter((logged) => logged.uid === user.uid);
 
@@ -51,7 +48,6 @@ function Feed() {
     setMessage("");
   };
 
-  //Ordena lista de post según la fecha de publicación:
   sortPostsList(postsList);
 
   return (

@@ -16,7 +16,7 @@
 
 .header-profile__nav div p {
 	font-family: slkscrb;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	font-style: uppercase;
 	margin-left: 1rem;
 }
@@ -38,22 +38,4 @@
 	margin-top: 2rem;
 	padding: 0.5rem;
 	width: fit-content;
-}
-
-/* RESPONSIVE: */
-
-@media (min-width: 768px) {
-	.header-profile__nav div p {
-		font-size: 1.8rem;
-	}
-	.header-profile__hero {
-		padding: 8rem 1.5rem;
-	}
-}
-
-@media (min-width: 1200px) {
-	.header-profile__nav {
-		padding: 0.5rem 25%;
-
-	}
 }

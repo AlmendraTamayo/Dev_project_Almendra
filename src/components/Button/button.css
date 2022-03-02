@@ -33,23 +33,3 @@
 	color: #60265B;
 }
 
-/* RESPONSIVE: */
-
-@media (min-width: 768px) {
-	.button {
-		font-size: 2.4rem;
-	}
-
-	.not-found__btn {
-		align-self: center;
-		margin-bottom: 3rem;
-		width: 70%;
-	}
-}
-
-@media (min-width: 1200px) {
-	.not-found__btn {
-		width: 50%;
-	}
-}
-

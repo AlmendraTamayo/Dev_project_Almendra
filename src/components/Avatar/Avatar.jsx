@@ -1,5 +1,5 @@
 import React from 'react';
-import  defaultPic  from '../../assets/defaultPic.svg';
+import defaultPic from '../../assets/defaultPic.svg';
 import PropTypes from 'prop-types';
 
 import './avatar.css';
@@ -11,7 +11,7 @@ function Avatar({
 	src 
 	}) {
 
-	const imgSrc = src ? src : defaultPic;
+	const imgSrc = src ? src : defaultPic ;
 
 	return (
 			<img 

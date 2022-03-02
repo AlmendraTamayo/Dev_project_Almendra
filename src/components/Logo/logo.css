@@ -6,7 +6,7 @@
 .logo__vert {
 	align-items: center;
 	flex-direction: column;
-	padding: 30% 0;
+	padding: 0;
 }
 
 .logo__vert-logotype {
@@ -36,7 +36,8 @@
 .logo__not-found {
 	justify-content: center;
 	margin: 0 auto;
-	padding: 1.5rem 0 9rem;
+	padding: 3rem 0 9rem;
+	width: 80%;
 }
 
 .logo__not-found-logotype {
@@ -46,26 +47,4 @@
 
 .logo__not-found-naming {
 	width: 50%;
-}
-
-/* RESPONSIVE: */
-
-@media (min-width: 768px) {
-	.logo__vert {
-		padding: 15% 0;
-	}
-	.logo__horizontal {
-		flex-basis: 40%;
-	}
-}
-
-@media (min-width: 1200px) {
-	.logo__vert {
-		padding: 0;
-	}
-
-	.logo__not-found {
-		padding: 3rem 0 9rem;
-		width: 80%;
-	}
 }
