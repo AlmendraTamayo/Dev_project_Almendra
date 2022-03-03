@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "Dev-project"
-  }
+    "default": "devproject-cd817",
+    "devproject": "devproject-cd817"
+  },
+  "targets": {}
 }

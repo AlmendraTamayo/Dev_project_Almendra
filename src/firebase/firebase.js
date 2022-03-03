@@ -4,12 +4,12 @@ import "firebase/auth";
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBs8Ptw-2oMtJWxin7OqyWDjk0T4hj1kkE",
-    authDomain: "devproject-cd817.firebaseapp.com",
-    projectId: "devproject-cd817",
-    storageBucket: "devproject-cd817.appspot.com",
-    messagingSenderId: "148549542538",
-    appId: "1:148549542538:web:5e7dc94ae58b52de510373"
+  apiKey: "AIzaSyBs8Ptw-2oMtJWxin7OqyWDjk0T4hj1kkE",
+  authDomain: "devproject-cd817.firebaseapp.com",
+  projectId: "devproject-cd817",
+  storageBucket: "devproject-cd817.appspot.com",
+  messagingSenderId: "148549542538",
+  appId: "1:148549542538:web:0aba31ca1fafaf89510373"
 };
 
 firebase.initializeApp(firebaseConfig);
